@@ -15,6 +15,12 @@ A program designed to safely manipulate strings based on index parameters provid
 * **Substring Extraction**: Extracts a specific section of a string from an inclusive start index to an exclusive end index, and reconstructs the remaining string without the extracted part.
 * **Strict Input Validation**: Implements extensive bounds checking to prevent negative indices, inverted bounds (b <= a), or out-of-bounds exceptions relative to the string length.
 
+### 📁 [Task 03 - Loops](./Task-03-Loops)
+A console-based number guessing game where the user attempts to find a randomly generated integer between 0 and 100.
+* **Random Generation**: Utilizes `java.util.Random` to determine the target number.
+* **Input Validation**: Uses `java.util.Scanner` with `hasNextInt()` to elegantly handle invalid non-integer inputs without crashing the program.
+* **Game Loop**: Features a main `do-while` loop for replayability and an inner `while` loop for continuous guessing with higher/lower feedback.
+
 ---
 
 ## Compilation & Execution
