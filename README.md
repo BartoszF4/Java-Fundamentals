@@ -5,15 +5,15 @@ This repository contains laboratory exercises and projects developed during the 
 ## Repository Structure
 
 ### 📁 [Task 01 - Quadratic Equation](./Task-01-Quadratic-Equation)
-A command-line utility that calculates the roots of a quadratic equation ($ax^2 + bx + c = 0$)[cite: 80].
-* **Command-line parsing**: Reads coefficients directly from the invocation arguments[cite: 80].
-* **Exception Handling**: Safely catches `NumberFormatException` to validate integer inputs before processing[cite: 81, 82].
-* **Edge Case Management**: Includes conditional logic to handle scenarios where $a = 0$ (linear equations or infinite/no solutions) and calculates the delta for real roots extraction[cite: 82].
+A command-line utility that calculates the roots of a quadratic equation (ax^2 + bx + c = 0).
+* **Command-line parsing**: Reads coefficients directly from the invocation arguments.
+* **Exception Handling**: Safely catches `NumberFormatException` to validate integer inputs before processing.
+* **Edge Case Management**: Includes conditional logic to handle scenarios where a = 0 (linear equations or infinite/no solutions) and calculates the delta for real roots extraction.
 
 ### 📁 [Task 02 - String Operations](./Task-02-String-Operations)
-A program designed to safely manipulate strings based on index parameters provided via the command line[cite: 80].
-* **Substring Extraction**: Extracts a specific section of a string from an inclusive start index to an exclusive end index, and reconstructs the remaining string without the extracted part[cite: 80, 81].
-* **Strict Input Validation**: Implements extensive bounds checking to prevent negative indices, inverted bounds ($b \le a$), or out-of-bounds exceptions relative to the string length[cite: 81].
+A program designed to safely manipulate strings based on index parameters provided via the command line.
+* **Substring Extraction**: Extracts a specific section of a string from an inclusive start index to an exclusive end index, and reconstructs the remaining string without the extracted part.
+* **Strict Input Validation**: Implements extensive bounds checking to prevent negative indices, inverted bounds (b <= a), or out-of-bounds exceptions relative to the string length.
 
 ---
 
