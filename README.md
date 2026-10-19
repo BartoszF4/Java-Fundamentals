@@ -23,8 +23,8 @@ A console-based number guessing game where the user attempts to find a randomly 
 
 ### 📁 [Task 04 - Regular Expressions](./Task-04-Regular-Expressions)
 A utility that validates arithmetic expressions by checking character validity and parenthesis nesting.
-* **Character Validation**: Uses `java.util.regex` to ensure the string contains only valid numbers, mathematical operators, and parentheses[cite: 85].
-* **Parenthesis Matching**: Implements an algorithmic depth-counting method (`isBalanced`) to verify arbitrarily nested parentheses, addressing the theoretical limitation of regular expressions for recursive structures[cite: 85].
+* **Character Validation**: Uses `java.util.regex` to ensure the string contains only valid numbers, mathematical operators, and parentheses.
+* **Parenthesis Matching**: Implements an algorithmic depth-counting method (`isBalanced`) to verify arbitrarily nested parentheses, addressing the theoretical limitation of regular expressions for recursive structures.
 
 ---
 
