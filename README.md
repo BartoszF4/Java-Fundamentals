@@ -26,6 +26,13 @@ A utility that validates arithmetic expressions by checking character validity a
 * **Character Validation**: Uses `java.util.regex` to ensure the string contains only valid numbers, mathematical operators, and parentheses.
 * **Parenthesis Matching**: Implements an algorithmic depth-counting method (`isBalanced`) to verify arbitrarily nested parentheses, addressing the theoretical limitation of regular expressions for recursive structures.
 
+### 📁 [Task 05 - Shopping List Manager](./Task-05-Shopping-List)
+A comprehensive, console-based application to manage categorized shopping lists, utilizing the `java.nio` package for file I/O operations.
+* **Object-Oriented Design**: Strictly separates concerns across multiple classes (e.g., `CatalogLoader` for parsing, `ConsoleInput` for UI/validation, `ProductCatalog` for data modeling).
+* **Custom Exceptions**: Implements a domain-specific `CatalogFormatException` to handle malformed rows or missing data during CSV parsing.
+* **File Operations**: Utilizes `java.nio.file.Files` to safely read predefined catalogs (`catalog.csv`) and export the user's active shopping list (`shopping_list.csv`).
+* **Collections Framework**: Employs `LinkedHashMap` and `ArrayList` to maintain insertion order of categories and products dynamically.
+
 ---
 
 ## Compilation & Execution
