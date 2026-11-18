@@ -33,11 +33,18 @@ A comprehensive, console-based application to manage categorized shopping lists,
 * **File Operations**: Utilizes `java.nio.file.Files` to safely read predefined catalogs (`catalog.csv`) and export the user's active shopping list (`shopping_list.csv`).
 * **Collections Framework**: Employs `LinkedHashMap` and `ArrayList` to maintain insertion order of categories and products dynamically.
 
+### 📁 [Task 06 - Collections Framework](./Task-06-Collections-Framework)
+An object-oriented telephone directory application demonstrating sorted collections, custom comparators, and clean domain modeling.
+* **Inheritance & Domain Modeling**: Defines an abstract `TelephoneEntry` base class extended by `Person` and `Company`, supported by immutable value objects (`Address`, `TelephoneNumber`) and a centralized `Validation` utility.
+* **Natural Ordering (`Comparable`)**: Implements `Comparable<TelephoneNumber>` along with `equals` and `hashCode` to sort entries lexicographically by country code and local number.
+* **Sorted Map & Iteration**: Uses `TreeMap<TelephoneNumber, TelephoneEntry>` inside `TelephoneDirectory` to maintain sorted entries and exposes an unmodifiable `Iterator` for safe traversal in `DirectoryPrinter`.
+* **Duplicate Prevention**: Throws a custom `DuplicateTelephoneNumberException` when attempting to register an already existing phone number, preventing silent overwrites.
+
 ---
 
 ## Compilation & Execution
 Navigate to the specific task directory and use the standard Java compiler (`javac`) and runtime (`java`). For example:
 
 ```bash
-javac Substring.java
-java Substring "Welcome" 1 4
+javac *.java
+java DirectoryApplication
